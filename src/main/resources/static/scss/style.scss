@@ -1,0 +1,35 @@
+//animations
+@import "./animations/animations.scss";
+
+//TOOLS
+@import "./tools/normalize.css";
+@import "./tools/mixis.scss";
+
+//SETTINGS
+@import "./settings/settings.scss";
+
+//BOOTSTRAP
+@import "./libary/bootstrap/bootstrap.scss";
+@import "./libary/bootstrap/bootstrap-reboot.scss";
+@import "./libary/bootstrap/bootstrap-grid.scss";
+
+//SWIPER
+@import "./libary/swiper/swiper.scss";
+@import "../../css/swiper-bundle.min.css";
+
+//INPUTTELL
+@import "../../css/intlTelInput.min.css";
+
+//LIGHTBOX
+@import "../../css/fslightbox.min.css";
+
+//COOKIE
+@import "./cookie/cookie.scss";
+
+/**
+* LAYOUTS
+**/
+@import "./layout/shared/footer.scss";
+@import "./layout/shared/header.scss";
+@import "./layout/home/index.scss";
+@import "./layout/services/index.scss";

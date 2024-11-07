@@ -1,0 +1,25 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 42 | / @include mq-md{
+ * 43 | |     @keyframes sidebar{
+ * 44 | |         from{
+ * 45 | |             right: 0%;
+ * 46 | |         }to{
+ * 47 | |             right: -45%;
+ * 48 | |         }
+ * 49 | |     }
+ * 50 | |     
+ * 51 | \ }
+ *    '
+ *   lp-tom-delfin/assets/src/scss/animations/others.scss 42:1  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 42 \2502  \250c  @include mq-md{\a 43 \2502  \2502      @keyframes sidebar{\a 44 \2502  \2502          from{\a 45 \2502  \2502              right: 0%;\a 46 \2502  \2502          }to{\a 47 \2502  \2502              right: -45%;\a 48 \2502  \2502          }\a 49 \2502  \2502      }\a 50 \2502  \2502      \a 51 \2502  \2514  }\a    \2575 \a   lp-tom-delfin/assets/src/scss/animations/others.scss 42:1  root stylesheet";
+}

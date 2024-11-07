@@ -1,0 +1,52 @@
+/**
+*   REGISTER FONTS
+**/
+@font-face {
+  font-family: "Fetish";
+  font-weight: 100;
+  font-style: normal;
+  src: url(./../../src/font/Fashion-Fetish-Small-Caps.ttf) format("TrueType");
+}
+@font-face {
+  font-family: "Fetish";
+  font-weight: 300;
+  font-style: normal;
+  src: url(./../../src/font/Fashion-Fetish-Light.ttf) format("TrueType");
+}
+@font-face {
+  font-family: "Fetish";
+  font-weight: 300;
+  font-style: italic;
+  src: url(./../../src/font/Fashion-Fetish-Light-Italic.ttf) format("TrueType");
+}
+@font-face {
+  font-family: "Fetish";
+  font-weight: 500;
+  font-style: normal;
+  src: url(./../../src/font/Fashion-Fetish-Regular.ttf) format("TrueType");
+}
+@font-face {
+  font-family: "Fetish";
+  font-weight: 700;
+  font-style: normal;
+  src: url(./../../src/font/Fashion-Fetish-Bold.ttf) format("TrueType");
+}
+@font-face {
+  font-family: "Fetish";
+  font-style: italic;
+  src: url(./../../src/font/Fashion-Fetish-Italic.ttf) format("TrueType");
+}
+@font-face {
+  font-family: "Fetish";
+  font-weight: 900;
+  font-style: normal;
+  src: url(./../../src/font/Fashion-Fetish-Heavy.ttf) format("TrueType");
+}
+/** 
+* FONTS GLOBALS
+**/
+* {
+  font-family: "Fetish";
+}
+
+/*# sourceMappingURL=font.css.map */
